@@ -1,0 +1,6 @@
+---
+- host: localhost
+  apt:
+    name: Install Apache
+    state:
+    update_cache:

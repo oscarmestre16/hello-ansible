@@ -1,0 +1,7 @@
+- host: localhost
+  tasks:
+      - name: install apache
+        apt:
+          name: apache2
+          state: present
+          update_cache: yes
